@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Robotics Club Registration Form</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@100..900&family=Bruno+Ace+SC&family=Encode+Sans+SC:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Raleway:ital,wght@0,700;1,700&family=Timmana&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
+
+  <style>
+    h1,h3{
+      text-align: center;
+    }
+    h1{
+       font-family: "Encode Sans SC", sans-serif;
+    }
+    body{
+   background-image: url(copy-space-blue-circuits-digital-background_23-2148821699.jpg);
+            background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+
+    }
+    .form-container{
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 20px;
+      border-radius: 10px;
+      margin: 200px;
+    }
+    label{
+      font-family: "Raleway", serif; 
+    }
+    textarea{
+      width: 100%;
+      padding: 8px;
+      
+    box-sizing: border-box;
+    }
+       .navbar-custom{
+        background-color: #06153a;
+
+       }
+       .navbar-custom, .navbar-brand,
+       .navbar-custom, .nav-link{
+        color: white;
+        font-family: "Encode Sans SC", sans-serif;
+       }
+       .navbar-custom, .navbar-link:hover{
+        color: black;
+       }
+
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container">
+            <a class="navbar-brand">OBMC</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://obmontessori.edu.ph/" target="_blank">HOME</a>  
+                    </li>
+                     <li class="nav-item">
+                      <a class="nav-link" href="https://obmontessori.edu.ph/contact-us" target="_blank">CONTACT</a>  
+                    </li>
+                     <li class="nav-item">
+                      <a class="nav-link" href="https://www.google.com/maps/place/Operation+Brotherhood+Montessori+Center/data=!4m7!3m6!1s0x3396f237c7d7ec39:0xa3cae61a3f0a87ea!8m2!3d15.1373131!4d120.5971115!16zL20vMGY1MHM2!19sChIJOezXxzfyljMR6ocKPxrmyqM?authuser=0&hl=en&rclk=1" target="_blank">LOCATE</a>  
+                    </li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+
+    </nav>
+
+
+    <div class="form-container mt-5">
+    <h1 class="mb-2 text-center">
+      ROBOTICS CLUB REGISTRATION FORM
+    </h1>    
+
+      <div class="container mb-6">
+        <form>
+        <div class="row mb-4">
+          <div class="col md-6">
+            <label for="name">Name</label>
+            <input type="name" class="form-control" id="Name" placeholder="Insert Name">
+          </div>
+          <div class="col md-6">
+            <label for="age">Age</label>
+            <input type="age" class="form-control" id="Age" placeholder="Insert Age">
+          </div>
+
+           <div class="container mb-6">
+          <div class="row mb-4">
+          <div class="col md-6">
+            <label for="email">Email Address</label>
+            <input type="email" class="form-control" id="email" placeholder="Insert Email Address">
+          </div>
+          <div class="col md-6">
+            <label for="number">Phone Number</label>
+            <input type="text" class="form-control" id="number" placeholder="Insert Phone Number">
+          </div> </div>
+
+          <h4>Preferred Robotic Topics</h4> 
+
+
+<div class="form-check mb-3" id="exampleCheck1">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">
+            Programming
+          </label> <br>
+        </div>
+
+        <div class="form-check mb-3" id="exampleCheck1">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">
+            Electronics
+          </label> <br>
+        </div>
+
+        <div class="form-check mb-3" id="exampleCheck1">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">
+            Mechanical Design
+          </label> <br>
+        </div>
+
+        <h4>Robotics Experience Level</h4> 
+
+
+<div class="form-check mb-3" id="exampleCheck1">
+          <input type="radio" id="radio1" name="radio" value="Beginner"> Beginner <br>
+          <input type="radio" id="radio1" name="radio" value="Intermediate"> Intermediate <br>
+          <input type="radio" id="radio1" name="radio" value="Advanced"> Advanced <br>
+        </div>
+
+        <div>
+          <label for="select">Preferred Robotics Project</label> <br>
+        <select id="select" name="select">
+          <option value="" disabled selected>Choose a project...</option>
+          <option value="Educational and Beginner Projects">Educational and Beginner Projects</option>
+          <option value="Intermediate Projects">Intermediate Projects</option>
+          <option value="Advanced Projects">Advanced Projects</option>
+          <option value="Specialized and Industrial Projects">Specialized and Industrial Projects</option>
+          <option value="DIY and Fun Projects">DIY and Fun Projects</option>
+          <option value="Robotics with Environmental Applications">Robotics with Environmental Applications</option>
+          <option value="Healthcare and Medical Robotics">Healthcare and Medical Robotics</option>
+          <option value="Creative Robotics Projects">Creative Robotics Projects</option>
+        </select> </div>
+
+        <div>
+            <label>Statement of Interest</label>
+        <textarea id="textarea" name="textarea" rows="4" cols="50" placeholder="Start typing..."></textarea>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="reset" class="btn btn-primary">Reset</button>
+        </div>
+
+
+
+
+      </div>
+    </form>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
